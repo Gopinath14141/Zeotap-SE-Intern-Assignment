@@ -49,7 +49,7 @@ This project is a **3-tier rule engine application** with a **Simple UI (Streaml
 ### **Steps**
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Gopinath14141/Zeotap-SE-Intern-Assignment/tree/main/Rule%20Engine%20with%20AST
+   git clone https://github.com/Gopinath14141/Zeotap-SE-Intern-Assignment.git
    cd Zeotap-SE-Intern-Assignment
    ```
 
@@ -220,8 +220,8 @@ This **Real-Time Data Processing System for Weather Monitoring** is a Streamlit-
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Gopinath14141/weather-data-processing.git
-   cd weather-data-processing
+   git clone https://github.com/Gopinath14141/Zeotap-SE-Intern-Assignment.git
+   cd Zeotap-SE-Intern-Assignment
    ```
 
 2. **Install Dependencies**:
