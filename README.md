@@ -49,8 +49,8 @@ This project is a **3-tier rule engine application** with a **Simple UI (Streaml
 ### **Steps**
 1. **Clone the Repository**
    ```bash
-   git clone <your-github-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/Gopinath14141/Zeotap-SE-Intern-Assignment/tree/main/Rule%20Engine%20with%20AST
+   cd Zeotap-SE-Intern-Assignment
    ```
 
 2. **Install Dependencies**
@@ -177,3 +177,94 @@ This project is licensed under the MIT License.
 
 ## **Contributors**
 - [Gopinath.R](https://github.com/Gopinath14141)
+
+
+
+# 2) ⛅ Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
+
+## Description
+This **Real-Time Data Processing System for Weather Monitoring** is a Streamlit-based application that fetches real-time weather data from the OpenWeatherMap API. The system offers insights into weather conditions across major Indian cities with aggregated daily summaries, alerts, and interactive visualizations. Users can monitor temperature trends, identify dominant weather conditions, and receive alerts based on configurable thresholds.
+
+## Features
+- **Continuous Weather Monitoring**: Retrieve real-time weather data for cities such as Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
+- **Daily Weather Summaries**: Aggregate data with metrics like:
+  - Average, Maximum, and Minimum Temperatures
+  - Dominant Weather Condition of the Day
+- **Customizable Alerts**: Trigger alerts if temperatures exceed 35°C or based on other configured thresholds.
+- **Visual Dashboard**: Interactive charts showcasing temperature trends and weather conditions.
+- **User Preferences**: Choose cities to monitor and set temperature thresholds.
+
+## Technologies Used
+- **Python**  
+- **Streamlit**: For building the interactive web interface  
+- **Plotly**: For visualizing weather trends and conditions  
+- **Pandas**: For data processing and aggregation  
+- **Requests**: To call the OpenWeatherMap API
+
+## **Project Structure**
+```
+/project-root
+│
+├── main.py               # Combined code for FastAPI and Streamlit
+├── requirements.txt      # Dependencies
+└── README.md             # Documentation (this file)
+```
+
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.x  
+- OpenWeatherMap API key (Sign up [here](https://openweathermap.org/api) for a free key)
+
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Gopinath14141/weather-data-processing.git
+   cd weather-data-processing
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   pip install streamlit plotly pandas requests
+   ```
+
+3. **Configure the API Key**:
+   Open the `app.py` file and replace `API_KEY` with your actual API key:
+   ```python
+   API_KEY = "**********"
+   ```
+
+### Running the Application
+To run the application locally, execute the following command:
+```bash
+streamlit run app.py
+```
+The Streamlit dashboard will open automatically in your default browser. Alternatively, you can visit `http://localhost:8501` to access the application.
+
+## Usage
+1. **Select Cities**: Use the sidebar to select the cities you want to monitor.
+2. **Start Monitoring**: Click the "Start Monitoring" button to begin fetching weather data every 5 minutes.
+3. **View Insights**:  
+   - Observe current weather data and temperature trends.
+   - Check the bar chart to see the most frequent weather conditions.
+   - Monitor alerts for high temperatures.
+
+## Visualizations
+- **Line Chart**: Displays daily temperature trends (Average, Max, Min temperatures).
+- **Bar Chart**: Visualizes the dominant weather conditions across selected cities.
+
+## Bonus Features (Optional)
+- **Additional Weather Metrics**: Supports future integration for wind speed, humidity, etc.
+- **Forecasting Capabilities**: Extend to retrieve weather forecasts and generate predictions.
+
+## Acknowledgements
+- **OpenWeatherMap** for the weather data API.
+- **Streamlit** for the easy-to-use web framework.
+- **Plotly** for creating stunning visualizations.
+
+## License
+This project is licensed under the MIT License. 
+
+## Contributiors
+[Gopinath.R](https://github.com/Gopinath14141)
