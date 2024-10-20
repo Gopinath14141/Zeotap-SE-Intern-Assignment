@@ -266,5 +266,5 @@ The Streamlit dashboard will open automatically in your default browser. Alterna
 ## License
 This project is licensed under the MIT License. 
 
-## Contributiors
+## Contributors
 [Gopinath.R](https://github.com/Gopinath14141)
